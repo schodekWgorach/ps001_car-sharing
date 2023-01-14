@@ -8,15 +8,6 @@
     --black: #000;
     --light-black: rgba(106, 106, 106, 1);
     --light-gray: #D1D1D1;
-
-/*    var(--bg-lightcolor)
-      var(--bg-red-button)
-      var( --black)
-      var(--light-black)
-      var(--bg-darkcolor)
-      var(--light-gray)
-
-*/
     --main-font: 'Nunito Sans', sans-serif;
 }
 
@@ -319,30 +310,39 @@ body {
 
 .contact {
     background-color: var(--bg-lightcolor);
-    margin-top: 88px;
     margin-bottom: 100px;
     text-align: center;
     align-items: center;
 }
 
-.contact-boxs{
+.contact-boxes{
     display: flex;
 
 }
 
 .contact-box{
     width: 50%;
+}
 
+.contact .section-title {
+    color: var( --black);
+
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+ /*   padding-bottom: 60px;*/
 }
 
 .contact-box-image{
     width: 90%;
     border-radius: 50% 20% / 10% 40%;
-/*    border-radius: 30px;*/
     background: red;
 
 }
-
 
 /*--form--*/
 .contact-box-form{
@@ -366,7 +366,7 @@ body {
 }
 
 .contact-form-input-message {
-    height: 140px;
+    height: 220px;
 }
 .contact-form-input:focus {
     border: 1px solid #FF0000;
@@ -378,5 +378,70 @@ body {
 /*<----------------------------------footer---------------------------------->*/
 
 
+.footer {
+    background-color: #28272C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
 
+.footer-logo-image {
+    width: 16px;
+}
+
+.footer-logo-car {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(255, 0, 0, 1);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer-logo-sharing {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-nav-list:first-of-type {
+    margin-right: 141px;
+}
+
+.footer-nav-list-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 19px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.footer-nav-list-link:last-child {
+    margin-bottom: 0;
+}
+
+.footer-nav-list-link:hover {
+    color: #FF0000;
+}
+
+.footer-nav-copy {
+    color: #D1D1D1;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: auto;
+}

@@ -108,24 +108,61 @@
 <section id="contact" class="contact">
     <div class="container">
         <h2 class="section-title">contakt</h2>
-        <div class="contact-boxs">
+        <div class="contact-boxes">
             <article class="contact-box">
                     <img class="contact-box-image" src="assets/Form-Photo.png" />
             </article>
 
             <form class="contact-box">
-                <input class="contact-form-input" type="text" placeholder="Type your name" />
-                <input class="contact-form-input" type="text" placeholder="Type your e-mail" />
-                <input class="contact-form-input contact-form-input-message" type="text" placeholder="massage">
-
+                <input id="form-name" class="contact-form-input" type="text" placeholder="Type your name" required minlength="4" />
+                <input id="form-email" class="contact-form-input" type="text" placeholder="Type your e-mail" size="30" />
+                <input id="form-message" class="contact-form-input contact-form-input-message" type="text" placeholder="massage">
             </form>
         </div>
     </div>
-
-
-
-
-    </div>
+  </div>
 </section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo" id >
+            <img class="footer-logo-image" src="assets/icon.svg" />
+            <span class="footer-logo-car">car</span>
+            <span class="footer-logo-sharing">sharing</span>
+        </div>
+        <div class="footer-nav">
+            <ul class="footer-nav-list">
+                <li>
+                    <a class="footer-nav-list-link" href="#">home page</a>
+                </li>
+                <li>
+                    <a class="footer-nav-list-link" href="#">about us</a>
+                </li>
+                <li>
+                    <a class="footer-nav-list-link" href="#">gallery</a>
+                </li>
+                <li>
+                    <a class="footer-nav-list-link" href="#">share regulation</a>
+                </li>
+            </ul>
+            <ul class="footer-nav-list">
+                <li>
+                    <a class="footer-nav-list-link" href="#">price</a>
+                </li>
+                <li>
+                    <a class="footer-nav-list-link" href="#">our fleet</a>
+                </li>
+                <li>
+                    <a class="footer-nav-list-link" href="#">our clients</a>
+                </li>
+                <li>
+                    <a class="footer-nav-list-link" href="#">contact</a>
+                </li>
+            </ul>
+            <small class="footer-nav-copy">Inspired and Copyright © Coders Lab</small>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
 </body>
 </html>

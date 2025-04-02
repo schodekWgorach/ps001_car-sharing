@@ -1,3 +1,4 @@
+
 # Project Overview
 
 Welcome to the **Car Sharing Platform** project! This project is designed to provide a seamless car-sharing experience, enabling users to book, manage, and share vehicles efficiently.
@@ -37,3 +38,4 @@ Here are the main technologies used in this project:
 5. Open your browser and navigate to `http://localhost:3000` to view the project.
 
 Enjoy exploring the Car Sharing Platform!
+

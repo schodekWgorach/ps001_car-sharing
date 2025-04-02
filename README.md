@@ -24,4 +24,5 @@ Welcome to the **Car Sharing Platform** project! This sample landing page is des
 3. Explore the page:  
    The page will be fully functional, allowing you to test the basic features of the landing page.
 
-Enjoy exploring the Car Sharing Platform!
+Enjoy exploring the Car Sharing Platform!!!
+

@@ -1,4 +1,6 @@
+
 # Car Sharing Platform - Sample Landing Page
+
 
 ## Project Description
 Welcome to the **Car Sharing Platform** project! This sample landing page is designed to illustrate how a promotional page for a car-sharing platform might look. The project provides a seamless experience for users, enabling them to book, manage, and share vehicles.
@@ -25,4 +27,3 @@ Welcome to the **Car Sharing Platform** project! This sample landing page is des
    The page will be fully functional, allowing you to test the basic features of the landing page.
 
 Enjoy exploring the Car Sharing Platform!!!
-

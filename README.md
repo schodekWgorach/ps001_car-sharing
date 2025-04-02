@@ -1,39 +1,27 @@
-# Project Overview
+# Car Sharing Platform - Sample Landing Page
 
-Welcome to the **Car Sharing Platform** project! This project is designed to provide a seamless car-sharing experience, enabling users to book, manage, and share vehicles efficiently.
+## Project Description
+Welcome to the **Car Sharing Platform** project! This sample landing page is designed to illustrate how a promotional page for a car-sharing platform might look. The project provides a seamless experience for users, enabling them to book, manage, and share vehicles.
 
 ## Technologies Used
-
-Here are the main technologies used in this project:
 - ![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
 - ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
 
 ## Features
-
-- User-friendly interface for booking and managing car rentals.
-- Real-time availability updates for vehicles.
-- Secure user authentication and profile management.
-- Integration with payment gateways for seamless transactions.
-- Fully responsive design for mobile and desktop users.
+- User-friendly interface for booking and managing car rentals.  
+- Real-time updates on vehicle availability.  
+- Secure user authentication and profile management.  
+- Integration with payment gateways for seamless transactions.  
+- Fully responsive design for mobile and desktop users.  
 
 ## Getting Started
+1. Download the project files:  
+   Clone the repository containing the `index.html` file, along with the CSS folder and other resources.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/car-sharing-platform.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd car-sharing-platform
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open your browser and navigate to `http://localhost:3000` to view the project.
+2. Run the project:  
+   Open the `index.html` file directly in your browser. You can double-click the file or use the "Open in Browser" option.
+
+3. Explore the page:  
+   The page will be fully functional, allowing you to test the basic features of the landing page.
 
 Enjoy exploring the Car Sharing Platform!

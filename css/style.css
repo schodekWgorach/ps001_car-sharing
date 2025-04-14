@@ -1,6 +1,12 @@
 /*font-family: 'Nunito Sans', sans-serif;*/
 /*font-family: 'Open Sans', sans-serif;*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --bg-lightcolor: #ffffff;
     --bg-darkcolor: rgba(40, 39, 44, 1);
@@ -464,4 +470,85 @@ body {
     font-size: 12px;
     font-weight: 300;
     margin-left: auto;
+}
+
+/* Domyślnie ukryj hamburgera */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background-color: var(--bg-lightcolor);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Mobile (320px - 480px) */
+@media (max-width: 480px) {
+    .hamburger {
+        display: flex; /* Pokaż hamburgera */
+    }
+
+    .nav-list {
+        display: none; /* Ukryj nawigację */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: var(--bg-darkcolor);
+        padding: 20px;
+        border-radius: 8px;
+        z-index: 10;
+    }
+
+    .nav-list.mobile-visible {
+        display: flex; /* Pokaż nawigację po kliknięciu hamburgera */
+    }
+
+    .nav-list-link {
+        text-decoration: none;
+        color: var(--bg-lightcolor);
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .nav-list-link:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .hamburger {
+        display: flex; /* Pokaż hamburgera */
+    }
+
+    .nav-list {
+        display: none; /* Ukryj nawigację */
+    }
+
+    .nav-list.mobile-visible {
+        display: flex; /* Pokaż nawigację po kliknięciu hamburgera */
+    }
+}
+
+/* Laptop/Desktop (1024px+) */
+@media (min-width: 1024px) {
+    .hamburger {
+        display: none; /* Ukryj hamburgera */
+    }
+
+    .nav-list {
+        display: flex; /* Pokaż nawigację */
+        flex-direction: row;
+        gap: 20px;
+    }
 }

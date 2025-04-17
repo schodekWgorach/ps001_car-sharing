@@ -527,6 +527,63 @@ body {
     .nav-list-link:last-child {
         margin-bottom: 0;
     }
+
+    /* Blog boxes - ustawienie w kolumnie */
+    .blog-boxes {
+        flex-direction: column; /* Ustaw elementy w kolumnie */
+        align-items: center; /* Wyśrodkuj elementy */
+    }
+
+    .blog-box {
+        width: 100%; /* Ustaw szerokość na 100% */
+        margin-bottom: 20px; /* Dodaj odstęp między elementami */
+    }
+
+    .blog-box:last-of-type {
+        margin-bottom: 0; /* Usuń odstęp dla ostatniego elementu */
+    }
+
+    /* Service boxes - ustawienie w kolumnie */
+    .service-boxes {
+        flex-direction: column; /* Ustaw elementy w kolumnie */
+        align-items: center; /* Wyśrodkuj elementy */
+    }
+
+    .service-box {
+        width: 100%; /* Ustaw szerokość na 100% */
+        margin-bottom: 20px; /* Dodaj odstęp między elementami */
+    }
+
+    .service-box:last-of-type {
+        margin-bottom: 0; /* Usuń odstęp dla ostatniego elementu */
+    }
+
+    /* Contact boxes - ustawienie w kolumnie */
+    .contact-boxes {
+        display: flex;
+        flex-direction: column; /* Ustaw elementy w kolumnie */
+        align-items: center; /* Wyśrodkuj elementy */
+        gap: 20px; /* Dodaj odstęp między elementami */
+    }
+
+    .contact-box {
+        width: 100%; /* Ustaw szerokość na 100% */
+        text-align: center; /* Wyśrodkuj zawartość */
+    }
+
+    .contact-box img {
+        max-width: 100%; /* Dopasuj obrazek do szerokości kontenera */
+        height: auto; /* Zachowaj proporcje obrazka */
+    }
+
+    .contact-form-input {
+        width: 90%; /* Dopasuj pola formularza do szerokości */
+        margin: 10px auto; /* Dodaj odstępy między polami */
+    }
+
+    .contact-form-button {
+        width: 90%; /* Dopasuj przycisk do szerokości */
+    }
 }
 
 /* Tablet (768px - 1024px) */

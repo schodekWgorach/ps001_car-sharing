@@ -19,6 +19,7 @@
 
 body {
     font-family: var(--main-font);
+    margin: 0 auto; /* Wyśrodkowanie zawartości */
 }
 
 /*<----------------------------------button---------------------------------->*/
@@ -83,8 +84,10 @@ body {
 }
 
 .container {
-    width: 1088px;
-    margin: 0 auto
+    width: 100%; /* Ustaw szerokość na 100% */
+    max-width: 1088px; /* Maksymalna szerokość dla większych ekranów */
+    margin: 0 auto; /* Wyśrodkowanie zawartości */
+    padding: 0 15px; /* Dodaj odstępy wewnętrzne po bokach */
 }
 
 .header .container {
@@ -518,6 +521,7 @@ body {
         font-size: 16px;
         text-transform: uppercase;
         margin-bottom: 10px;
+        display: none; /* Ukryj linki nawigacyjne */
     }
 
     .nav-list-link:last-child {

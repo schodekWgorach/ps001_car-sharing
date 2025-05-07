@@ -388,16 +388,18 @@ body {
 
 .contact-form-button {
     display: inline-block;
+    border-radius: 20px;
     padding: 10px 20px; /* Dopasuj do przycisków "read more" */
     font-size: 16px; /* Dopasuj rozmiar tekstu */
     font-weight: bold;
     color: #fff;
     background-color: #e63946; /* Kolor czerwony jak w "read more" */
     border: none;
-    border-radius: 5px;
+    
     cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
+    
 }
 
 .contact-form-button:hover {
